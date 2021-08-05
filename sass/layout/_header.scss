@@ -1,0 +1,27 @@
+@import "../abstracts/variables";
+.Cover {
+  background-image: url(../../apoyo/imagen1.png);
+  height: 300px;
+  background-size: cover;
+}
+.Cover-Desktop {
+  background-image: url(../../apoyo/imagen1.png);
+  height: 1000px;
+  background-size: cover;
+  display: none;
+}
+
+@media (min-width: 993px) {
+  .Cover {
+    height: 500px;
+  }
+}
+
+@media (min-width: 1100px) {
+  .Cover {
+    display: none;
+  }
+  .Cover-Desktop {
+    display: block;
+  }
+}

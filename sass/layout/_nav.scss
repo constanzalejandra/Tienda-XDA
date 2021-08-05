@@ -1,0 +1,26 @@
+@import "../abstracts/variables";
+.navbar {
+  .navbar-brand {
+    background: $smoky-black;
+    color: white !important;
+    padding: 10px;
+    height: 100%;
+  }
+  .nav-link {
+    color: $smoky-black !important;
+    font-family: $raleway;
+    font-weight: bold !important;
+  }
+  .navbar-toggler {
+    border: none !important;
+    .icon-nav {
+      color: $smoky-black !important;
+    }
+  }
+}
+
+@media (min-width: 993px) {
+  .navbar {
+    height: 100px;
+  }
+}

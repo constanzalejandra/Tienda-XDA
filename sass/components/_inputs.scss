@@ -1,0 +1,12 @@
+@import "../abstracts/variables";
+input.xda-input {
+  background-color: $white;
+  font-family: $raleway;
+  color: $quick-silver;
+  display: block;
+  border-radius: 2px;
+  padding: 10px;
+  width: 100%;
+  border: none;
+  margin-top: 10px;
+}

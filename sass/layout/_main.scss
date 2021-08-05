@@ -1,0 +1,27 @@
+@import "../abstracts/variables";
+.Main {
+  padding: 20px;
+  h1 {
+    font-family: $old-standard, serif;
+    font-weight: bold;
+    color: $smoky-black;
+  }
+  p {
+    color: $granite-gray;
+    font-family: $raleway, serif;
+  }
+}
+
+@media (min-width: 993px) {
+  .Main {
+    width: 80%;
+
+    padding: 60px;
+    h1 {
+      font-size: $xxx-large;
+    }
+    p {
+      font-size: $x-large;
+    }
+  }
+}

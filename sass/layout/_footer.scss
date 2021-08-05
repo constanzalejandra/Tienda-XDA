@@ -1,0 +1,37 @@
+@import "../abstracts/variables";
+.Footer {
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  background-color: $smoky-black;
+  .Footer__info {
+    h1 {
+      color: $white;
+      font-weight: bold;
+      font-family: $old-standard;
+    }
+    span {
+      color: $white;
+      font-family: $old-standard;
+      margin-bottom: 10px;
+    }
+  }
+
+  .Footer__suscribir {
+    background-color: $white;
+    height: 100%;
+    transform: rotate(90deg);
+    span {
+      color: $smoky-black !important;
+    }
+  }
+}
+
+@media (min-width: 993px) {
+  .Footer__info {
+    width: 70%;
+  }
+}
